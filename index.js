@@ -8,6 +8,22 @@ const app = express();
 const port = 3000;
 
 
+const inputBox=$.getElementById("text-box");
+const list=$.getElementById("List");
+
+function addToList(){
+    if(inputBox==''){
+        alert("Need to add something!");
+
+    }
+    else{
+        let li=$.createElement("li");
+        li.innerHTML=inputBox.value();
+        list.appendChild(li);
+    }
+}
+
+
 
 
 
