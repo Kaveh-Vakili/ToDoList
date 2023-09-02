@@ -1,11 +1,11 @@
 header h1{ 
 	
-	color:blue;
+	color:brown;
 
 }
 
 #task-form {
-	display: flex;;
+	display: flex;
 }
 
 #task-submit {
