@@ -9,7 +9,8 @@ header h1{
 }
 
 #task-submit {
-	color: var(--pink);
+	color:blueviolet;
 	font-size: 1.25rem;
+	border-radius: 1rem;
 	
 }
