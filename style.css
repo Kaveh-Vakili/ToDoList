@@ -4,11 +4,11 @@ header h1{
 
 }
 
-#task-form {
+#input-box {
 	display: flex;
 }
 
-#task-submit {
+#button {
 	color:blueviolet;
 	font-size: 1.25rem;
 	border-radius: 1rem;
