@@ -1,0 +1,19 @@
+{
+    "dependencies": {
+      "express": "^4.18.2",
+      "innit": "^0.0.0"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    },
+    "name": "kavehvakili",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Kaveh Vakili",
+    "license": "ISC",
+    "description": "todolist project"
+  }
