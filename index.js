@@ -14,7 +14,7 @@ function addTask(){
 
 	}
 
-
+inputBox.value="";
 
 
 
