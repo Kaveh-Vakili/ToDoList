@@ -1,5 +1,5 @@
 const inputBox= document.getElementById("input-box");
-const list=document.getElementById("list");
+const list=document.getElementById("List");
 
 function addTask(){
 	if(inputBox.value==''){
@@ -11,6 +11,9 @@ function addTask(){
 
 		li.innerHTML=inputBox.value;
 		list.appendChild(li);
+		let crossOut=document.createElement("crossOut");
+		crossOut.innerHTML="\u00d7";
+		li.appendChild(crossOut);
 
 	}
 

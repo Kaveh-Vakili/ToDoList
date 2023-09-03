@@ -11,3 +11,14 @@ input-box{
 	font-size: medium;
 	color:aquamarine;
 }
+
+ul li crossOut{
+	position:right;
+	right: 5;
+	top: 5px;
+	width: 40px;
+	height: 40px;
+	font-size: 22px;
+	color: black;
+}
+
