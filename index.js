@@ -21,5 +21,14 @@ inputBox.value="";
 
 
 
-
 }
+
+list.addEventListener("click",function(e){
+	if(e.target==="li"){
+		e.target.classList.toggle('checked');
+	}
+	else if(e.target.tagName=="crossOut"){
+		e.target.parentElement.remove();
+	}
+	
+},false);

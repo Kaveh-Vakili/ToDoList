@@ -9,10 +9,13 @@ h2{
 
 input-box{
 	width:200px;
-	height:150px;
-	overflow: hidden;
-	border-radius:0.5em;
+	height:200px;
+	margin:10px;
+	padding:10px;
+	border-radius: 100%;
+
 }
+
 
 ul li crossOut{
 	right: auto;
@@ -25,6 +28,10 @@ ul li crossOut{
 	border-radius: 50%;
 }
 
+ul li.checked{
+	color: black;
+	text-decoration: line-through;
+}
 
 
 button{
