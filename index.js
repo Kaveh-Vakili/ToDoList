@@ -24,7 +24,7 @@ inputBox.value="";
 }
 
 list.addEventListener("click",function(e){
-	if(e.target==="li"){
+	if(e.target==="LI"){
 		e.target.classList.toggle('checked');
 	}
 	else if(e.target.tagName=="crossOut"){

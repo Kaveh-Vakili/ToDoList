@@ -28,6 +28,25 @@ ul li crossOut{
 	border-radius: 50%;
 }
 
+ul li{
+	list-style: none;
+	font-size: 17px;
+	padding: 12px 8px 12px 50px;
+	user-select: none;
+	cursor:pointer;
+}
+
+ul li::before{
+	content:'';
+	position: absolute;
+	height: 28px;
+	width: 28px;
+	border-radius: 50%;
+	
+
+
+}
+
 ul li.checked{
 	color: black;
 	text-decoration: line-through;
