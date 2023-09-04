@@ -1,56 +1,17 @@
 
 .box{
 	display: flex;
+	position: relative;
+	left: 100px;
+
 }
 
 h2{
 	color:darkred;
+	position: relative;
+	left: 210px;
 }
 
-input-box{
-	width:200px;
-	height:200px;
-	margin:10px;
-	padding:10px;
-	border-radius: 100%;
-
-}
-
-
-ul li crossOut{
-	right: auto;
-	top: 5px;
-	width: 50px;
-	height: 40px;
-	font-size: 22px;
-	color: black;
-	text-align: center;
-	border-radius: 50%;
-}
-
-ul li{
-	list-style: none;
-	font-size: 17px;
-	padding: 12px 8px 12px 50px;
-	user-select: none;
-	cursor:pointer;
-}
-
-ul li::before{
-	content:'';
-	position: absolute;
-	height: 28px;
-	width: 28px;
-	border-radius: 50%;
-	
-
-
-}
-
-ul li.checked{
-	color: black;
-	text-decoration: line-through;
-}
 
 
 button{
@@ -63,7 +24,39 @@ button{
 	border-radius: 40px;
 }
 
-ul li crossOut:hover{
-	background-color: coral;
+
+ul li{
+	list-style: none;
+	position: relative;
+	left:1px;
+	font-size: 17px;
+	
+	padding: 12px 8px 12px 50px;
+	user-select: none;
+	cursor:pointer;
 
 }
+
+
+img{
+	float:left;
+
+}
+
+
+ul li.checkMark{
+	color: black;
+	text-decoration: line-through;
+}
+
+ul li.checkMark{
+	color: black;
+	text-decoration: line-through;
+	background-image: url(images/checked.png) no-repeat;
+	
+
+
+}
+
+
+
