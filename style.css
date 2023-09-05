@@ -22,27 +22,61 @@
 	padding:40px 30px 70px;
 	border-radius: 10px;
 }
+.todo-app h2{
+	color: #002765;
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+
+}
+
+.todo-app h2 img{
+	width:30px;
+	margin-left: 10px;
+}
+input{
+	flex:1;
+	border:none;
+	outline:none;
+	background: transparent;
+	padding:10px;
+	font-weight:14px;
+	font-style: italic;
+
+
+}
 button{
 	border: none;
 	outline: none;
-	padding: 16px 50px;
-	background-color:blue ;
-	font-size: 16px;
+	padding: 10px 20px;
+	background-color:goldenrod ;
+	font-size: 20px;
 	cursor: pointer;
-	border-radius: 40px;
+	border-radius: 20px;
 }
 
 
-.List{
+ul li{
 	list-style: none;
-	position: relative;
-	left:1px;
-	font-size: 17px;
-	
+	font-size:17px ;
 	padding: 12px 8px 12px 50px;
 	user-select: none;
-	cursor:pointer;
+	cursor: pointer;
+	position: relative;
 
+}
+
+ul li::before{
+	content: '';
+	position: absolute;
+	right:10px;
+	height: 28px;
+	width: 28px;
+	border-radius: 50%;
+	background-image: url(images/unchecked.png);
+	background-size: cover;
+	background-position: center;
+	top: 12px;
 }
 
 ul li.checked::before{
