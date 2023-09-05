@@ -23,11 +23,11 @@ inputBox.value="";
 
 }
 
-list.addEventListener("click",function(e){
+listContainer.addEventListener("click",function(e){
 	if(e.target==="LI"){
 		e.target.classList.toggle('checked');
 	}
-	else if(e.target.tagName=="crossOut"){
+	else if(e.target.tagName=="SPAN"){
 		e.target.parentElement.remove();
 	}
 	
