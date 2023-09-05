@@ -1,5 +1,5 @@
 const inputBox= document.getElementById("input-box");
-const list=document.getElementById("List");
+const listContainer=document.getElementById("list-container");
 
 function addTask(){
 	if(inputBox.value==''){
@@ -10,10 +10,10 @@ function addTask(){
 		let li=document.createElement("li");
 
 		li.innerHTML=inputBox.value;
-		list.appendChild(li);
-		let crossOut=document.createElement("crossOut");
-		crossOut.innerHTML="\u00d7";
-		li.appendChild(crossOut);
+		listContainer.appendChild(li);
+		let span=document.createElement("span");
+		span.innerHTML="\u00d7";
+		li.appendChild(span);
 
 	}
 
